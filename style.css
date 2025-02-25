@@ -1,0 +1,89 @@
+body {
+    background-color: #13075E;
+    margin-top: 2rem;
+
+}
+
+#logo {
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+#portanav {
+    width: 5%;
+}
+
+p {
+    font-family: 'Krona one';
+    color: white;
+    font-size: 20px;
+}
+
+.formulario-cadastro {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: white;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.monstrinhos {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.8rem;
+}
+#imagem-monstros{
+    margin-top: 3rem;
+}
+
+#imagem-monstros-fundo {
+    margin-top: 5rem;
+    border-radius: 5px;
+    box-shadow: 15px -10px 0px 8px #00000040;
+}
+
+#titulo {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+   
+}
+#container-formulario-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.formulario-login {
+    width: 555px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #22d4FD;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    position: absolute;
+    z-index: 1;
+    width: 52px;
+    height: 92px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
